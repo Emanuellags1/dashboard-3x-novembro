@@ -1,8 +1,0 @@
-VERSÃO SEM CONFIGURAÇÃO DE AUTENTICAÇÃO
-
-1. No SQL Editor do Supabase, cole o conteúdo de ATUALIZAR-BANCO.sql.
-2. Clique em Corre.
-3. Abra Análise 3x sem juros.html.
-4. Use e-mail @vcimentos.com e senha #Votorantim10.
-
-Mantenha o HTML e config.js na mesma pasta.
