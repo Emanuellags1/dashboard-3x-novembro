@@ -288,7 +288,7 @@ const MES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","de
 const FILTERS=[["trilha","Trilha/Equipe"],["cf","Cliente final"],["vend","Vendedor"],["seg","Segmento"]];
 const ORDER={Retirar:0,Avaliar:1,Manter:2};
 const COLOR={Manter:"#16a34a",Avaliar:"#f59e0b",Retirar:"#dc2626"};
-let sel={},recFilter="",coordFilter="",current=null,clients=[],selectedBeforeBuild=null;
+let sel={},recFilter="",coordFilter="",statusFilter"",current=null,clients=[],selectedBeforeBuild=null;
 const $=id=>document.getElementById(id);
 const nf=(v,d=0)=>v==null||isNaN(v)?"–":v.toLocaleString("pt-BR",{minimumFractionDigits:d,maximumFractionDigits:d});
 const brl=v=>v==null?"–":(v<0?"-R$ ":"R$ ")+nf(Math.abs(v));
